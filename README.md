@@ -11,8 +11,6 @@
 - 🛡️ **安全防断连**：在执行清空底层规则（iptables）前，**自动将默认策略置为放行（ACCEPT）**，完美防止清空规则导致的 SSH 瞬间断连报错。
 - 🖱️ **极简交互**：直观的终端菜单，检测状态一目了然，数字按键一键开启/关闭。
 
----
-
 ## 🚀 一键运行指令 (Quick Start)
 
 无需手动下载解压，你可以直接在任意 Linux 终端复制并运行以下命令（请确保你拥有 `root` 权限）：
@@ -20,14 +18,14 @@
 ### 推荐方式 (使用 curl)
 ```bash
 bash <(curl -s -L https://raw.githubusercontent.com/ZhangSir9901/linux-firewall-manager/refs/heads/main/firewall_manager.sh)
-
+```
 备用方式 (使用 wget)
 ```bash
 wget -O firewall_manager.sh https://raw.githubusercontent.com/ZhangSir9901/linux-firewall-manager/refs/heads/main/firewall_manager.sh && bash firewall_manager.sh
-
+```
 💻 界面展示
 运行脚本后，你将看到如下直观的控制台界面：
-```bash
+
 ====================================================
               Linux 防火墙一键管理工具              
 ====================================================
