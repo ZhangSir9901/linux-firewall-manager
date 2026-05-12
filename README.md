@@ -50,5 +50,6 @@ wget -O firewall_manager.sh https://raw.githubusercontent.com/ZhangSir9901/linux
 权限要求：必须以 root 用户或使用 sudo 权限运行此脚本。
 安全风险：彻底关闭防火墙会极大降低系统的网络安全性！ 建议仅在安全的内网环境、受信任的云安全组保护下，或明确知晓风险的测试环境中使用“一键关闭”功能。生产环境公网服务器请慎用。
 免责声明：本脚本按“原样”提供，因使用本脚本造成的任何网络安全事件或数据损失，作者不承担任何连带责任。
+
 📄 开源协议
 This project is licensed under the MIT License.
