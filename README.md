@@ -31,7 +31,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/ZhangSir9901/linux-firewall-
 wget -O firewall_manager.sh https://raw.githubusercontent.com/ZhangSir9901/linux-firewall-manager/refs/heads/main/firewall_manager.sh && bash firewall_manager.sh
 ```
 
-💻 界面展示 (Preview)
+##💻 界面展示 (Preview)
 运行脚本后，你将看到如下直观的控制台界面：
 
 ```bash
@@ -59,14 +59,14 @@ wget -O firewall_manager.sh https://raw.githubusercontent.com/ZhangSir9901/linux
 请输入对应数字 (0/1/2):
 ```
 
-⚠️ 注意事项与免责声明
+##⚠️ 注意事项与免责声明
 [!IMPORTANT]
 权限要求：必须以 root 用户或使用 sudo 权限运行此脚本。
 安全风险：彻底关闭防火墙会极大降低系统的网络安全性！建议仅在安全的内网环境、受信任的云安全组保护下，或明确知晓风险的测试环境中使用“一键关闭”功能。生产环境公网服务器请慎用。
 冲突预防：脚本会自动处理 Firewalld 与 UFW 的冲突，不建议在同一台机器上强行手动开启多个防火墙前端。
 免责声明：本脚本按“原样”提供，因使用本脚本造成的任何网络安全事件或数据损失，作者不承担任何连带责任。
 
-📄 开源协议
+##📄 开源协议
 This project is licensed under the MIT License.
 
-⭐ 如果这个脚本帮到了你，请给一个 Star 以示支持！
+##⭐ 如果这个脚本帮到了你，请给一个 Star 以示支持！
