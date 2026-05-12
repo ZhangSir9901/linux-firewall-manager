@@ -32,7 +32,7 @@ wget -O firewall_manager.sh https://raw.githubusercontent.com/ZhangSir9901/linux
 ```
 💻 界面展示 (Preview)
 运行脚本后，你将看到如下直观的控制台界面：
-
+```text
 ****************************************************
   脚本名称 : Linux Universal Firewall Manager
   脚本版本 : v1.2.0 (2024-05-24)
@@ -55,7 +55,7 @@ wget -O firewall_manager.sh https://raw.githubusercontent.com/ZhangSir9901/linux
   [0] 退出脚本 (Exit)
 ====================================================
 请输入对应数字 (0/1/2):
-
+```
 ⚠️ 注意事项与免责声明
 [!IMPORTANT]
 权限要求：必须以 root 用户或使用 sudo 权限运行此脚本。
