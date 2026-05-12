@@ -22,12 +22,12 @@
 bash <(curl -s -L https://raw.githubusercontent.com/ZhangSir9901/linux-firewall-manager/refs/heads/main/firewall_manager.sh)
 
 备用方式 (使用 wget)
-
+```bash
 wget -O firewall_manager.sh https://raw.githubusercontent.com/ZhangSir9901/linux-firewall-manager/refs/heads/main/firewall_manager.sh && bash firewall_manager.sh
 
 💻 界面展示
 运行脚本后，你将看到如下直观的控制台界面：
-
+```bash
 ====================================================
               Linux 防火墙一键管理工具              
 ====================================================
